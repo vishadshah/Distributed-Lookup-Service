@@ -17,7 +17,7 @@ Source code files that I have used are
 
 client.c
 
-- I have done creating binding and listening of the TCP socket is done through the socket(), bind(), listen() functions, the structure address was referred from Beej Guide.("http://beej.us/guide/bgnet/").
+- I have done creating, binding and listening of the TCP socket is done through the socket(), bind(), listen() functions, the structure address was referred from Beej Guide.("http://beej.us/guide/bgnet/").
 - The input fucntion is given in the command line which is read by and stored in a pointer to a char* and this is sent to AWS through write command.
 - After this, the AWS server sends the message to the client through TCP connection which is received in the client.
 - The received message from the AWS server is displayed.
